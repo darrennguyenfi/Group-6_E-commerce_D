@@ -1,0 +1,59 @@
+@import "./colors.scss";
+
+.homepage {
+  height: 100%;
+  &__banner {
+    height: 700px;
+    width: 100%;
+    background-image: url("../assets//6896439.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  &__cover {
+    min-height: 100vh;
+  }
+  &__displayData {
+    &__content {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: flex-end;
+      width: 1400px;
+      float: right;
+    }
+
+    &__title {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      background-color: $footer-color;
+      width: 100%;
+      height: 100px;
+      margin-top: 10px;
+      font-size: 26px;
+      font-family: "Dangrek", cursive;
+      color: white;
+    }
+
+    &__inf {
+      display: inline-flex;
+      justify-content: flex-end;
+      float: right;
+      margin: 15px 25px;
+    }
+    &__cover {
+      display: flex;
+      flex-direction: column;
+    }
+
+    &__book {
+      height: 350px;
+      width: 250px;
+      &__inf {
+        margin-top: 5px;
+        display: flex;
+        flex-direction: column;
+      }
+    }
+  }
+}

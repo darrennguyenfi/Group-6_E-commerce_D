@@ -1,0 +1,170 @@
+@import "./colors.scss";
+
+.signin {
+  min-height: 100vh;
+  background-image: url("../assets/signin.jpg");
+
+  display: flex;
+  flex-direction: column;
+  &__header {
+    background-color: $headbar-color;
+    height: 100px;
+  }
+  &__form {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex: 1 0 auto;
+    &__welcome {
+      margin-top: 70px;
+      color: #fff;
+      font-family: "Dangrek", cursive;
+      font-size: 60px;
+      font-style: normal;
+      font-weight: 800;
+      line-height: normal;
+    }
+    &__enter {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      height: 200px;
+      justify-content: space-around;
+      margin-top: 30px;
+      &__cover {
+        display: flex;
+        &__name {
+          margin: auto auto;
+          width: 100px;
+          font-family: "Dangrek", cursive;
+          color: #fff;
+          font-size: 20px;
+        }
+      }
+      &__input {
+        width: 400px;
+        height: 40px;
+        border-radius: 10px;
+        padding: 0px 10px;
+      }
+    }
+    &__btnsCover {
+      width: 550px;
+      display: flex;
+      justify-content: space-between;
+      margin-top: 50px;
+      &__btn {
+        width: 180px;
+        height: 50px;
+        font-size: 20px;
+        font-family: "Dangrek", cursive;
+        color: #000;
+        border-radius: 10px;
+        cursor: pointer;
+        text-decoration: none;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    }
+  }
+}
+
+.DN {
+  background-color: #9db2bf;
+  border-color: #9db2bf;
+  &:hover {
+    background-color: #9db2bfb7;
+    border-color: #9db2bfb7;
+  }
+}
+
+.DK {
+  background-color: #ff7222;
+  border-color: #ff7222;
+  &:hover {
+    background-color: #ff7322c2;
+    border-color: #ff7222c2;
+  }
+}
+
+//-----------Signup-----------\\
+.signup {
+  background-image: url("../assets/signup.jpg");
+  background-repeat: no-repeat;
+  background-blend-mode: hard-light;
+  min-height: 100vh;
+
+  display: flex;
+
+  flex-direction: column;
+
+  &__header {
+    background-color: $headbar-color;
+    height: 100px;
+  }
+  &__form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1 0 auto;
+
+    &__title {
+      display: flex;
+
+      margin-top: 20px;
+      color: #fff;
+      font-family: "Dangrek", cursive;
+      font-size: 60px;
+      font-style: normal;
+      font-weight: 800;
+      line-height: normal;
+    }
+    &__enter {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      height: 400px;
+      justify-content: space-around;
+      margin-top: 30px;
+
+      &__cover {
+        display: flex;
+        &__name {
+          margin: auto auto;
+          width: 100px;
+          font-family: "Dangrek", cursive;
+          color: #fff;
+          font-size: 20px;
+        }
+      }
+      &__input {
+        width: 400px;
+        height: 40px;
+        border-radius: 10px;
+        padding: 0px 10px;
+      }
+    }
+    &__btnsCover {
+      width: 550px;
+      display: flex;
+      justify-content: space-between;
+      margin-top: 50px;
+      &__btn {
+        width: 180px;
+        height: 50px;
+        font-size: 20px;
+        font-family: "Dangrek", cursive;
+        color: #000;
+        border-radius: 10px;
+        cursor: pointer;
+        text-decoration: none;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    }
+  }
+}
